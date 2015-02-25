@@ -1,0 +1,60 @@
+.table  {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:0px auto;
+}
+.header {
+	margin-top: 50px;
+}
+.table td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+}
+.table th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	width: 112px;
+	background: rgb(136, 167, 184);
+}
+
+.eon input{
+	text-align: center;
+	font-size: 14px;
+	width: 110px;
+}
+.era input{
+	text-align: center;
+	font-size: 14px;
+	width: 110px;
+}
+.period input{
+	text-align: center;
+	font-size: 14px;
+	width: 90px;
+}
+.age input{
+	text-align: center;
+	font-size: 14px;
+	width: 40px;
+}
+
+#replace {
+
+}
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+.table {
+	width: 100%;
+}
+}
