@@ -1,18 +1,15 @@
 body{
 	margin: 0px;
+	font-family: 'Exo 2', sans-serif;
 }
+
 .tg  {
 	border-collapse:collapse;
 	border-spacing:0;
 	margin:0px auto;
 	width: 100%;
 }
-.tg tbody{
-	width: 400px;
-}
 .tg td{
-	font-family:Arial, sans-serif;
-	font-size:6px;
 	border-style:solid;
 	border-width:1px;
 	overflow:hidden;
@@ -20,8 +17,6 @@ body{
 	text-align: center;
 }
 .tg th{
-	font-family:Arial, sans-serif;
-	font-size:18px;
 	font-weight:normal;
 	padding:10px 5px;
 	border-style:solid;
@@ -29,6 +24,9 @@ body{
 	overflow:hidden;
 	word-break:normal;
 	background: rgb(136, 167, 184);
+}
+.bottom_table{
+	margin-top: 49px;
 }
 .vertical{
 	color: red;
@@ -43,9 +41,11 @@ input {
 	width: 100%;
 	text-align: center;
 	border: none;
-	padding: 10px 0px;
-	font-size: 8px;
+	/*padding: 10px 0px;
+	font-size: 8px;*/
 	height: 100%;
+	font-family: 'Exo 2', sans-serif;
+
 }
 
 .blank{
@@ -70,4 +70,77 @@ input {
 
 .vertical_align{
 	vertical-align: middle;
+}
+.bottom_align{
+	padding: 0px;
+	margin-top: 8px;
+}
+.fixed{
+	position: fixed;
+	top: 0px;
+	height: 50px;
+}
+
+@media screen and (max-width: 1048px) {
+	input{
+		padding: 10px 0px;
+		font-size: 20px;
+	}
+	.tg td{
+		font-size:6px;
+	}
+	.tg th{
+		font-size:28px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	input{
+		padding: 10px 0px;
+		font-size: 16px;
+	}
+	.tg td{
+		font-size:6px;
+	}
+	.tg th{
+		font-size:24px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	input{
+		padding: 10px 0px;
+		font-size: 12px;
+	}
+	.tg td{
+		font-size:6px;
+	}
+	.tg th{
+		font-size:20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	input{
+		padding: 10px 0px;
+		font-size: 8px;
+	}
+	.tg td{
+		font-size:6px;
+	}
+	.tg th{
+		font-size:18px;
+	}
+}
+@media screen and (max-width: 400px) {
+	input{
+		padding: 10px 0px;
+		font-size: 8px;
+	}
+	.tg td{
+		font-size:6px;
+	}
+	.tg th{
+		font-size:18px;
+	}
 }

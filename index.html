@@ -4,6 +4,7 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="style.css">
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -12,7 +13,7 @@
    <title>Geologic Time Scale</title>
 </head>
 <body>
-  <table class="tg">
+  <table class="tg fixed">
       <tr>
         <th class="eon"    colspan="2"    >Eon</th>
         <th class="era"                   >Era</th>
@@ -20,122 +21,124 @@
         <th class="epoch"                 >Epoch</th>
         <th class="age"                   >Age</th>
       </tr>
+  </table>
+  <table class="tg bottom_table">
       <tr>
         <td rowspan="3"  colspan="2"      ></td>
         <td rowspan="3"                   ></td>
-        <td rowspan="3" colspan="2"  class="vertical_align"     ><input type="text" value="Quaternary"</td>
-        <td                               ><input type="text" value="Anthrocene"</td>
-        <td                               ><input type="text" value="1820 A.D."</td>
+        <td rowspan="3" colspan="2"  class="vertical_align"     ><input type="text" value="Quaternary"></td>
+        <td                               ><input type="text" value="Anthrocene"></td>
+        <td                               ><input type="text" value="1820 A.D."></td>
       </tr>
       <tr>
-        <td                               ><input type="text" value="Holocene"</td>
-        <td                               ><input type="text" value=".01 Ma"</td>
+        <td                               ><input type="text" value="Holocene"></td>
+        <td                               ><input type="text" value=".01">Ma</td>
       </tr>
       <tr>
-        <td                               ><input type="text" value="Pleistocene"</td>
-        <td                               ><input type="text" value="2.6 Ma"</td>
+        <td                               ><input type="text" value="Pleistocene"></td>
+        <td                               ><input type="text" value="2.6">Ma</td>
       </tr>
       <tr>
-        <td rowspan="15"  colspan="2" class="vertical_align"   ><input class="vertical" type="text" value="Phanerozoic"</td>
-        <td rowspan="5"      class="vertical_align"><input type="text" value="Cenozoic"</td>
-        <td rowspan="2"             class="vertical_align"      ><input type="text" value="Neogene"</td>
-        <td rowspan="5"             class="vertical_align"      ><input type="text" value="Tertiary"</td>
-        <td                               ><input type="text" value="Pliocene"</td>
+        <td rowspan="15"  colspan="2" class="vertical_align"   ><input class="vertical" type="text" value="Phanerozoic"></td>
+        <td rowspan="5"      class="vertical_align"><input type="text" value="Cenozoic"></td>
+        <td rowspan="2"             class="vertical_align"      ><input type="text" value="Neogene"></td>
+        <td rowspan="5"             class="vertical_align"      ><input type="text" value="Tertiary"></td>
+        <td                               ><input type="text" value="Pliocene"></td>
       </tr>
       <tr>
-        <td><input type="text" value="Miocene"</td>
-        <td><input type="text" value="23 Ma"</td>
+        <td><input type="text" value="Miocene"></td>
+        <td><input type="text" value="23">Ma</td>
       </tr>
       <tr>
-        <td rowspan="3" class="vertical_align"><input type="text" value="Paleogene"</td>
-        <td><input type="text" value="Oligocene"</td>
+        <td rowspan="3" class="vertical_align"><input type="text" value="Paleogene"></td>
+        <td><input type="text" value="Oligocene"></td>
       </tr>
       <tr>
-        <td><input type="text" value="Eocene"</td>
+        <td><input type="text" value="Eocene"></td>
 
       </tr>
       <tr>
-        <td><input type="text" value="Paleocene"</td>
-        <td><input type="text" value="66 Ma"</td>
+        <td><input type="text" value="Paleocene"></td>
+        <td><input type="text" value="66">Ma</td>
       </tr>
       <tr>
-        <td rowspan="3" class="vertical_align"><input type="text" value="Mesozoic"</td>
-        <td colspan="2"><input type="text" value="Cretaceous"</td>
+        <td rowspan="3" class="vertical_align"><input type="text" value="Mesozoic"></td>
+        <td colspan="2"><input type="text" value="Cretaceous"></td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Jurassic"</td>
+        <td colspan="2"><input type="text" value="Jurassic"></td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Triassic"</td>
-        <td></td>
-        <td><input type="text" value="252 Ma"</td>
-      </tr>
-      <tr>
-        <td rowspan="7" class="vertical_align"><input type="text" value="Paleozoic"</td>
-        <td colspan="2"><input type="text" value="Permian"</td>
-      </tr>
-      <tr>
-        <td rowspan="2" class="vertical_align"><input type="text" value="Carboniferous"</td>
-        <td><input type="text" value="Pennsylvanian"</td>
-      </tr>
-      <tr>
-        <td><input type="text" value="Mississippian"</td>
+        <td colspan="2"><input type="text" value="Triassic"></td>
         <td class="blank"></td>
-        <td><input type="text" value="359 Ma"</td>
+        <td><input type="text" value="252">Ma</td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Devonian"</td>
+        <td rowspan="7" class="vertical_align"><input type="text" value="Paleozoic"></td>
+        <td colspan="2"><input type="text" value="Permian"></td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Silurian"</td>
+        <td rowspan="2" class="vertical_align"><input type="text" value="Carboniferous"></td>
+        <td><input type="text" value="Pennsylvanian"></td>
+      </tr>
+      <tr>
+        <td><input type="text" value="Mississippian"></td>
         <td class="blank"></td>
-        <td><input type="text" value="444 Ma"</td>
+        <td><input type="text" value="359">Ma</td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Ordivician"</td>
+        <td colspan="2"><input type="text" value="Devonian"></td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Cambrian"</td>
+        <td colspan="2"><input type="text" value="Silurian">></td>
         <td class="blank"></td>
-        <td><input type="text" value="542 Ma"</td>
+        <td><input type="text" value="444">>Ma</td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="text" value="Ordivician">></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="text" value="Cambrian">></td>
+        <td class="blank"></td>
+        <td><input type="text" value="542">>Ma</td>
       </tr>
       <tr> 
-        <td rowspan="7" class="vertical_align"><input class="vertical" type="text" value="Precambrian"</td>
-        <td rowspan="5" class="vertical_align"><input  class="vertical" type="text" value="Proterozoic"</td>
-        <td rowspan="3" class="vertical_align"><input type="text" value="Neoproterozoic"</td>
-        <td colspan="2"><input type="text" value="Ediacaran"</td>
+        <td rowspan="7" class="vertical_align"><input class="vertical" type="text" value="Precambrian"></td>
+        <td rowspan="5" class="vertical_align"><input  class="vertical" type="text" value="Proterozoic"></td>
+        <td rowspan="3" class="vertical_align"><input type="text" value="Neoproterozoic"></td>
+        <td colspan="2"><input type="text" value="Ediacaran"></td>
         <td class="blank"></td>
-        <td><input type="text" value="635 Ma"</td>
+        <td><input type="text" value="635">Ma</td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Cryogenian"</td>
+        <td colspan="2"><input type="text" value="Cryogenian"></td>
         <td class="blank"></td>
-        <td><input type="text" value="720 Ma"</td>
+        <td><input type="text" value="720">Ma</td>
       </tr>
       <tr>
-        <td colspan="2"><input type="text" value="Tonian"</td>
+        <td colspan="2"><input type="text" value="Tonian"></td>
         <td class="blank"></td>
-        <td><input type="text" value="1.0 Ga"</td>
+        <td><input type="text" value="1.0">Ga</td>
       </tr>
       <tr>
-        <td><input type="text" value="Mesoproterozoic"</td>
+        <td><input type="text" value="Mesoproterozoic"></td>
         <td class="blank" colspan="3"></td>
-        <td><input type="text" value="1.6 Ga"</td>
+        <td><input type="text" value="1.6">Ga</td>
       </tr>
       <tr>
-        <td><input type="text" value="Paleoproterozoic"</td>
+        <td><input type="text" value="Paleoproterozoic"></td>
         <td class="blank" colspan="3"></td>
-        <td><input type="text" value="2.5 Ga"</td>
+        <td><input type="text" value="2.5">Ga</td>
       </tr>
       <tr>
-        <td><input class="vertical" type="text" value="Archean"</td>
+        <td><input class="vertical" type="text" value="Archean"></td>
         <td class="blank" colspan="4"></td>
-        <td><input type="text" value="4.0 Ga"</td>
+        <td><input type="text" value="4.0"<Ga>/td>
       </tr>
       <tr>
-        <td><input class="vertical" type="text" value="Hadean"</td>
+        <td><input class="vertical" type="text" value="Hadean"></td>
         <td class="blank" colspan="4"></td>
-        <td><input type="text" value="4.56 Ga"</td>
+        <td><input type="text" value="4.56">Ga</td>
       </tr>
   </table>
 </body>
