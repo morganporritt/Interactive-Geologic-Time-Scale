@@ -79,6 +79,7 @@ input {
 	position: fixed;
 	top: 0px;
 	height: 50px;
+	z-index: 1000;
 }
 
 @media screen and (max-width: 1048px) {
