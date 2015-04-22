@@ -1,60 +1,81 @@
-.table  {
+body{
+	margin: 0px;
+}
+.tg  {
 	border-collapse:collapse;
 	border-spacing:0;
 	margin:0px auto;
+	width: 100%;
 }
-.header {
-	margin-top: 50px;
+.tg tbody{
+	width: 400px;
 }
-.table td{
+.tg td{
 	font-family:Arial, sans-serif;
-	font-size:14px;
-	padding:10px 5px;
+	font-size:8px;
 	border-style:solid;
 	border-width:1px;
 	overflow:hidden;
 	word-break:normal;
+	text-align: center;
 }
-.table th{
+.tg th{
 	font-family:Arial, sans-serif;
-	font-size:14px;
+	font-size:18px;
 	font-weight:normal;
 	padding:10px 5px;
 	border-style:solid;
 	border-width:1px;
 	overflow:hidden;
 	word-break:normal;
-	width: 112px;
 	background: rgb(136, 167, 184);
 }
+.vertical{
+	color: red;
+  	  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
 
-.eon input{
+input {
+	width: 100%;
 	text-align: center;
-	font-size: 14px;
-	width: 110px;
 }
-.era input{
-	text-align: center;
-	font-size: 14px;
-	width: 110px;
+
+.blank{
+	border: none !important;
 }
-.period input{
-	text-align: center;
-	font-size: 14px;
-	width: 90px;
+
+.eon{
+	width: 60px;
 }
-.age input{
-	text-align: center;
-	font-size: 14px;
+.era{
+	width: 60px;
+}
+.period{
+	width: 120px;
+}
+.epoch{
+	width: 120px;
+}
+.age{
 	width: 40px;
 }
 
-#replace {
-
+.eon{
+	width: 15%;
 }
-
-@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-.table {
-	width: 100%;
+.era{
+	width: 15%;
 }
+.period{
+	width: 30%;
+}
+.epoch{
+	width: 30%;
+}
+.age{
+	width: 30%;
 }
