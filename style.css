@@ -203,14 +203,5 @@ footer .tg th{
 	padding: 2px;
 	width: 20px;
 	background: #FFF;
-}
-
-.left {
-	float: left;
-	margin-left: 15px;
-}
-
-.right {
-	float: right;
-	margin-right: 15px;
+	margin-left: 5px;
 }
