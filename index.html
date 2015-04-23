@@ -24,11 +24,11 @@
   </table>
   <table class="tg bottom_table">
       <tr>
-        <td rowspan="3"  colspan="2"      ></td>
-        <td rowspan="3"                   ></td>
-        <td rowspan="3" colspan="2"  class="vertical_align"     ><input type="text" value="Quaternary"></td>
-        <td                               ><input type="text" value="Anthrocene"></td>
-        <td                               ><input type="text" value="1820 A.D."></td>
+        <td rowspan="3"  colspan="2" class="eon"     ></td>
+        <td rowspan="3"              class="era"     ></td>
+        <td rowspan="3"  colspan="2" class="period vertical_align"     ><input type="text" value="Quaternary"></td>
+        <td                          class="epoch"   ><input type="text" value="Anthrocene"></td>
+        <td                          class="age"     ><input type="text" value="1820 A.D."></td>
       </tr>
       <tr>
         <td                               ><input type="text" value="Holocene"></td>
@@ -39,7 +39,7 @@
         <td                               ><input type="text" value="2.6">Ma</td>
       </tr>
       <tr>
-        <td rowspan="15"  colspan="2" class="vertical_align"   ><input class="vertical" type="text" value="Phanerozoic"></td>
+        <td rowspan="15"  colspan="2" class="vertical_align"   ><input type="text" value="Phanerozoic"></td>
         <td rowspan="5"      class="vertical_align"><input type="text" value="Cenozoic"></td>
         <td rowspan="2"             class="vertical_align"      ><input type="text" value="Neogene"></td>
         <td rowspan="5"             class="vertical_align"      ><input type="text" value="Tertiary"></td>
@@ -103,8 +103,8 @@
         <td><input type="text" value="542">>Ma</td>
       </tr>
       <tr> 
-        <td rowspan="7" class="vertical_align"><input class="vertical" type="text" value="Precambrian"></td>
-        <td rowspan="5" class="vertical_align"><input  class="vertical" type="text" value="Proterozoic"></td>
+        <td rowspan="7" class="vertical_align"><input type="text" value="Precambrian"></td>
+        <td rowspan="5" class="vertical_align"><input type="text" value="Proterozoic"></td>
         <td rowspan="3" class="vertical_align"><input type="text" value="Neoproterozoic"></td>
         <td colspan="2"><input type="text" value="Ediacaran"></td>
         <td class="blank"></td>
@@ -131,15 +131,40 @@
         <td><input type="text" value="2.5">Ga</td>
       </tr>
       <tr>
-        <td><input class="vertical" type="text" value="Archean"></td>
+        <td><input type="text" value="Archean"></td>
         <td class="blank" colspan="4"></td>
         <td><input type="text" value="4.0"<Ga>/td>
       </tr>
       <tr>
-        <td><input class="vertical" type="text" value="Hadean"></td>
+        <td><input type="text" value="Hadean"></td>
         <td class="blank" colspan="4"></td>
         <td><input type="text" value="4.56">Ga</td>
       </tr>
   </table>
+
+  <footer>
+    <div class="fixed_bottom">
+      <div class="eon">
+        <button class="50">Add</button>
+        <button class="50">Remove</button>
+      </div>
+      <div class="era">
+        <button class="50">Add</button>
+        <button class="50">Remove</button>
+      </div>
+      <div class="period">
+        <button class="50">Add</button>
+        <button class="50">Remove</button>
+      </div>
+      <div class="epoch">
+        <button class="50">Add</button>
+        <button class="50">Remove</button>
+      </div>
+      <div class="age">
+        <button class="50">Add</button>
+        <button class="50">Remove</button>
+      </div>
+    </div>
+  </footer>
 </body>
 <html>
