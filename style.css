@@ -33,7 +33,6 @@ body{
 	margin-top: 49px;
 }
 .vertical{
-	color: red;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
