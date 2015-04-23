@@ -48,7 +48,9 @@ input {
 	font-size: 8px;*/
 	height: 100%;
 	font-family: 'Exo 2', sans-serif;
-
+}
+input:focus{
+	outline: 0;
 }
 
 footer button{
@@ -102,8 +104,19 @@ footer .tg th{
 	height: 50px;
 	z-index: 1000;
 	width: 100%;
+	margin: 0;
 }
 .50{
+	width: 50%;
+}
+
+#age_label{
+	font-size: 18px;
+	margin-top: 19px;
+	position: absolute;
+}
+
+.ageR{
 	width: 50%;
 }
 
