@@ -168,3 +168,21 @@ footer .tg th{
 		font-size:18px;
 	}
 }
+
+.fake-btn {
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 2px;
+	width: 20px;
+	background: #FFF;
+}
+
+.left {
+	float: left;
+	margin-left: 15px;
+}
+
+.right {
+	float: right;
+	margin-right: 15px;
+}
