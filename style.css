@@ -82,7 +82,7 @@ footer button{
 }
 
 footer .tg th{
-	padding: 0px;
+  padding: 5px 0;
 }
 
 .blank{
@@ -153,8 +153,8 @@ footer .tg th{
 }
 
 #age_label{
-	font-size: 18px;
-	margin-top: 19px;
+	font-size: 10px;
+	margin-top: 17px;
 	position: absolute;
 	color: #4BBBFF;
 	-webkit-text-stroke-width: .4px;
@@ -213,16 +213,43 @@ footer .tg th{
     transition: width 2s;
 
 }
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
 	input{
 		padding: 10px 0px;
-		font-size: 28px;
+		font-size: 24px;
 	}
 	.tg td{
 		font-size:6px;
 	}
 	.tg th{
-		font-size:32px;
+		font-size:30px;
+	}
+	#age_label{
+		font-size: 19px;
+	}
+	.ageR{
+		margin-left: -31px;
+		margin-right: 7px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	input{
+		padding: 10px 0px;
+		font-size: 24px;
+	}
+	.tg td{
+		font-size:6px;
+	}
+	.tg th{
+		font-size:30px;
+	}
+	#age_label{
+		font-size: 19px;
+	}
+	.ageR{
+		margin-left: -31px;
+		margin-right: 7px;
 	}
 }
 
@@ -237,6 +264,13 @@ footer .tg th{
 	.tg th{
 		font-size:30px;
 	}
+	#age_label{
+		font-size: 19px;
+	}
+	.ageR{
+		margin-left: -31px;
+		margin-right: 7px;
+	}
 }
 
 @media screen and (max-width: 1048px) {
@@ -249,6 +283,9 @@ footer .tg th{
 	}
 	.tg th{
 		font-size:28px;
+	}
+	#age_label{
+		font-size: 16px;
 	}
 }
 
@@ -263,6 +300,13 @@ footer .tg th{
 	.tg th{
 		font-size:24px;
 	}
+	#age_label{
+		font-size: 13px;
+		margin-top: 13px;
+	}
+	.ageR{
+		margin-left: -20px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -276,9 +320,12 @@ footer .tg th{
 	.tg th{
 		font-size:20px;
 	}
-	.age_label{
-		font-size: 11px;
-		margin-top: 15px;
+	#age_label{
+		margin-top: 16px;
+	}
+	.ageR{
+		margin-left: -18px;
+		margin-right: 3px;
 	}
 }
 
@@ -293,9 +340,9 @@ footer .tg th{
 	.tg th{
 		font-size:18px;
 	}
-	.age_label{
+	#age_label{
 		font-size: 11px;
-		margin-top: 15px;
+		margin-top: 16px;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -308,6 +355,10 @@ footer .tg th{
 	}
 	.tg th{
 		font-size:18px;
+	}
+	#age_label{
+		font-size: 11px;
+		margin-top: 16px;
 	}
 }
 
