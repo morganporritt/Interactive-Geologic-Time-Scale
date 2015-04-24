@@ -3,12 +3,14 @@ var correct = 53;
 var progress = 100;
 $( document ).ready(function() {
 
+  // when input leaves focus it checks it validates the input
+
   $("input").focus(function() {
     console.log('in');
   }).blur(function() {
     console.log('out');
 
-    if(this.value == this.name){
+    if(this.value.toLowerCase() == this.name.toLowerCase()){
       $(this).addClass("border_green", 1000, "easeOutBounce");
       correct++;
       progress=correct/total*100; 
@@ -50,14 +52,12 @@ function validate(type) {
   $('.' + type).each(function(i, el) {
     var item = $(el);
     if (el.value == el.name) {
-      // item.css({color: 'green'})
-      item.addClass("border_green");
+      item.addClass("border_green", 1000, "easeOutBounce");
       correct++;
-
-
+      progress=correct/total*100; 
+      $('#progress_bar').css("width", progress + "%");
     } else {
-      // item.css({border: 'red'})
-      item.addClass("border_red");
+
     }
   })
 }
@@ -85,6 +85,28 @@ function addBack(type) {
 
 
   })
+}
+
+function cheat () {
+  addBack("eonR");
+  addBack("eraR");
+  addBack("periodR");
+  addBack("epochR");
+  addBack("ageR");
+  validate("eonR");
+  validate("eraR");
+  validate("periodR");
+  validate("epochR");
+  validate("ageR");
+
+}
+
+function uncheat () {
+  addBack("eonR");
+  addBack("eraR");
+  addBack("periodR");
+  addBack("epochR");
+  addBack("ageR");
 }
 
 // var ss = new ScrollSpy({
