@@ -344,6 +344,9 @@ footer .tg th{
 		font-size: 11px;
 		margin-top: 16px;
 	}
+	.fa{
+		width: 25px;
+	}
 }
 @media screen and (max-width: 400px) {
 	input{
@@ -359,6 +362,9 @@ footer .tg th{
 	#age_label{
 		font-size: 11px;
 		margin-top: 16px;
+	}
+	.fa{
+		width: 25px;
 	}
 }
 
