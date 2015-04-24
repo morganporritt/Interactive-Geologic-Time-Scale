@@ -1,7 +1,12 @@
 body{
 	margin: 0px;
 	font-family: 'Exo 2', sans-serif;
+	background: url("earth.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	  background-position: -170px -50px
 }
+
 
 .tg  {
 	border-collapse:collapse;
@@ -19,15 +24,18 @@ body{
 	overflow:hidden;
 	word-break:normal;
 	text-align: center;
+	border-color: rgb(184, 184, 184);
 }
 .tg th{
 	font-weight:normal;
 	padding:10px 5px;
 	border-style:solid;
 	border-width:3px;
+	border-color: #000000;
 	overflow:hidden;
 	word-break:normal;
-	background: rgb(136, 167, 184);
+    background: rgb(58, 58, 58);
+    color:white;
 }
 .bottom_table{
 	margin-top: 49px;
@@ -48,9 +56,20 @@ input {
 	font-size: 8px;*/
 	height: 100%;
 	font-family: 'Exo 2', sans-serif;
+	background: none;
+	color: #4BBBFF;
+	-webkit-text-stroke-width: .4px;
+	-webkit-text-stroke-color: black;
 }
 input:focus{
 	outline: 0;
+	background-color: rgba(255, 255, 255, 0.64);
+}
+input[disabled]:hover {
+    background: none;
+}
+input:hover {
+	background-color: rgba(255, 255, 255, 0.64);
 }
 
 footer button{
@@ -61,6 +80,7 @@ footer button{
 	border: none;
 	background: red;
 }
+
 footer .tg th{
 	padding: 0px;
 }
@@ -78,6 +98,28 @@ footer .tg th{
 .period{
 	width: 35%;
 }
+/*.eraR {
+	background: none;
+	color: #DADADA;
+}
+.eonR {
+	background: none;
+	color: #DADADA;
+}
+.periodR {
+	background: none;
+	color: #DADADA;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.epochR {
+	background: none;
+	color: #DADADA;
+}
+.ageR {
+	background: none;
+	color: #DADADA;
+}*/
 .epoch{
 	width: 15%;
 }
@@ -114,12 +156,63 @@ footer .tg th{
 	font-size: 18px;
 	margin-top: 19px;
 	position: absolute;
+	color: #4BBBFF;
+	-webkit-text-stroke-width: .4px;
+	-webkit-text-stroke-color: black;
 }
 
 .ageR{
 	width: 50%;
 }
 
+.border_red{
+/*	border: red;
+	border-style: solid;
+	border-width: 3px;*/
+	background: rgba(184, 14, 14, 0.39);
+}
+.border_green{
+/*	border: green;
+	border-style: solid;
+	border-width: 3px;*/
+	background: rgba(81, 205, 81, 0.35);
+}
+
+.green{
+	color: rgb(0, 102, 0);
+	background: rgb(151, 210, 151);
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.red {
+	color: rgb(184, 14, 14);
+	background: rgb(236, 133, 133);
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+.black {
+	color: #272727;
+	background: rgb(152, 152, 152);
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+.fa{
+	width: 30px;
+}
+
+#progress_bar{
+	width: 100%;
+	background: rgb(129, 192, 86);
+	height: 20px;
+	display: block;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+
+}
 @media screen and (max-width: 1400px) {
 	input{
 		padding: 10px 0px;
@@ -175,7 +268,7 @@ footer .tg th{
 @media screen and (max-width: 768px) {
 	input{
 		padding: 10px 0px;
-		font-size: 12px;
+		font-size: 16px;;
 	}
 	.tg td{
 		font-size:6px;
@@ -183,18 +276,26 @@ footer .tg th{
 	.tg th{
 		font-size:20px;
 	}
+	.age_label{
+		font-size: 11px;
+		margin-top: 15px;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	input{
 		padding: 10px 0px;
-		font-size: 8px;
+		font-size: 15px;
 	}
 	.tg td{
 		font-size:6px;
 	}
 	.tg th{
 		font-size:18px;
+	}
+	.age_label{
+		font-size: 11px;
+		margin-top: 15px;
 	}
 }
 @media screen and (max-width: 400px) {
