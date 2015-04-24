@@ -39,7 +39,7 @@ body{
 }
 .bottom_table{
 	margin-top: 49px;
-	margin-bottom: 66px;
+	margin-bottom: 82px;
 }
 .vertical{
 /*	-webkit-transform: rotate(-90deg);
@@ -75,8 +75,15 @@ input:hover {
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none; 
+	margin: 0; 
+}
+input[type=number] {
+    -moz-appearance:textfield;
 }
 
 footer button{
