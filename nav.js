@@ -98,6 +98,7 @@ function cheat () {
   validate("periodR");
   validate("epochR");
   validate("ageR");
+    $('#progress_bar').css("width", "100%");
 
 }
 
@@ -107,6 +108,16 @@ function uncheat () {
   addBack("periodR");
   addBack("epochR");
   addBack("ageR");
+    $('#progress_bar').css("width", "100%");
+}
+
+function removeAll () {
+  removeColumnContent("eonR");
+  removeColumnContent("eraR");
+  removeColumnContent("periodR");
+  removeColumnContent("epochR");
+  removeColumnContent("ageR");
+  $('#progress_bar').css("width", "0");
 }
 
 // var ss = new ScrollSpy({

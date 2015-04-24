@@ -13,7 +13,7 @@ body{
 	border-spacing:0;
 	margin:0px auto;
 	width: 100%;
-	min-width: 600px;
+	/*min-width: 600px;*/
 	margin-bottom: 50px;
 
 
@@ -39,6 +39,7 @@ body{
 }
 .bottom_table{
 	margin-top: 49px;
+	margin-bottom: 66px;
 }
 .vertical{
 	-webkit-transform: rotate(-90deg);
@@ -332,10 +333,11 @@ footer .tg th{
 @media screen and (max-width: 600px) {
 	input{
 		padding: 10px 0px;
-		font-size: 15px;
+		font-size: 11px;
 	}
 	.tg td{
 		font-size:6px;
+		border-width: 1px;
 	}
 	.tg th{
 		font-size:18px;
@@ -344,14 +346,15 @@ footer .tg th{
 		font-size: 11px;
 		margin-top: 16px;
 	}
-	.fa{
-		width: 25px;
+   	.fa{
+		width: 18px;
 	}
 }
 @media screen and (max-width: 400px) {
 	input{
 		padding: 10px 0px;
 		font-size: 8px;
+		-webkit-text-stroke-width: .1px;
 	}
 	.tg td{
 		font-size:6px;
@@ -360,11 +363,25 @@ footer .tg th{
 		font-size:18px;
 	}
 	#age_label{
-		font-size: 11px;
-		margin-top: 16px;
+		font-size: 8px;
+		margin-top: 13px;
+		-webkit-text-stroke-width: .1px;
+
 	}
 	.fa{
 		width: 25px;
+		height: 25px;
+		font-size: 19pt!important;
+	}
+	.ageR{
+		margin-left: -13px;
+		margin-right: 3px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.bottom_table{
+		margin-bottom: 99px;
 	}
 }
 
