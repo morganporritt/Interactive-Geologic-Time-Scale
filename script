@@ -1,8 +1,7 @@
 #!/bin/bash
+
 echo "start"
-ssh -p222 morganporritt.com cd /home/morgan/webProjects/geologicTimeScale && git pull
+ 
+ssh -p222 morganporritt.com -t "cd /home/morgan/webProjects/geologicTimeScale && git pull -u origin master && touch thisisATest"
 
-#ssh -p222 morganporritt.com ls
-
-echo "done"
-
+echo "end"
