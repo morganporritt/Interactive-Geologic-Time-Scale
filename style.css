@@ -389,6 +389,11 @@ footer .tg th{
 	.bottom_table{
 		margin-bottom:116px;
 	}
+	.fa {
+		width: 12px;
+		height: 12px;
+		font-size: 10pt!important;
+	}
 }
 
 .fake-btn {
