@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "start"
+ssh -p222 morganporritt.com cd /home/morgan/webProjects/geologicTimeScale && git pull
+
+#ssh -p222 morganporritt.com ls
+
+echo "done"
+
